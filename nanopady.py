@@ -13,7 +13,7 @@ try:
     # check if the user wants to use hash on the URL
     valid = False
     while(valid == False):
-        hashopt = input("Do you use hash for your address? [y,n] ").lower()
+        hashopt = input("Do you use hash for your address? {y,n} ").lower()
         if(hashopt == "y" or hashopt == "n"):
             valid = True
         else:
